@@ -3,15 +3,20 @@ HONOR CODE: I solemnly promise that while taking this test I will only use PyCha
 but I will definitely not ask another person except the instructor. typed: Noah W. Mable
 
 1.) How do you enter a single line comment in a program?
-
+#this is how you make a single line comment
 
 
 
 2.) What do the following lines of code output? ALSO: Why do they give a different answer?
-2 / 3
-2 // 3
-3/2
-3//2
+2 / 3 = .6666
+/ = division
+2 // 3 = 0
+// = floor division, chops off the decimal
+3/2 = 1.3333
+/ = division
+3//2 = 1
+// = floor division. chops off the decimal
+
 
 
 
@@ -20,7 +25,8 @@ but I will definitely not ask another person except the instructor. typed: Noah 
 3.) What happens when you try this and why?
 A = 22
 b = 13
-c = a+b
+c = a+b = 35
+use substitution, 22+13 = 35
 
 
 
@@ -36,6 +42,8 @@ area
 area_of_rectangle
 Area_Of_Rectangle
 
+a, it starts with a lower case abd is th shortest to type
+
 
 
 
@@ -48,7 +56,7 @@ Apple
 APPLE
 Apple2
 1Apple
-account number
+account number, this one it has a space in it
 account_number
 account.number
 accountNumber
@@ -64,7 +72,7 @@ great.big.variable
 2x
 x2x
 total%
-#left
+#left, can be mistaken for a comment
 
 
 
@@ -72,12 +80,12 @@ total%
 
 
 6.) Predict the output of (a) and its type and then test it?
-a =2
-a*=10
-a/=2
-a+=12
-a-=7
-a
+a =2   a will equal 2
+a*=10   a will equal 20
+a/=2         a will equal 10
+a+=12        a will equal 22
+a-=7         a will equal 15
+a            a will equal 15
 type(a)
 
 
