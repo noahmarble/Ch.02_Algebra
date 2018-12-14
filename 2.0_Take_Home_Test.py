@@ -56,11 +56,11 @@ Apple
 APPLE
 Apple2
 1Apple
-account number, this one it has a space in it
+account number          this one it has a space in it
 account_number
 account.number
 accountNumber
-account#
+account#                cant have a hashtag
 pi
 PI
 fred
@@ -68,11 +68,11 @@ Fred
 GreatBigVariable
 greatBigVariable
 great_big_variable
-great.big.variable
-2x
-x2x
-total%
-#left, can be mistaken for a comment
+great.big.variable       cant use periods
+2x                       this one
+x2x                      this one
+total%                   this one
+#left                    this one
 
 
 
@@ -80,13 +80,13 @@ total%
 
 
 6.) Predict the output of (a) and its type and then test it?
-a =2   a will equal 2
-a*=10   a will equal 20
-a/=2         a will equal 10
-a+=12        a will equal 22
-a-=7         a will equal 15
-a            a will equal 15
-type(a)
+a =2         a will equal 2
+a*=10        a will equal 20
+a/=2         a will equal 10.0
+a+=12        a will equal 22.0
+a-=7         a will equal 15.0
+a            a will equal 15.0
+type(a)      15.0
 
 
 
@@ -102,15 +102,18 @@ area = pi  * radius ** 2
 area
 
 
-
+radius=10
+pi=3.14
+area=pi*radious**2
+area
 
 
 
 8.) What is the ouput of each of these?
-type(42)
-type(42.0)
-type("C3PO")
-type(True)
+type(42)            <class 'int'>
+type(42.0)          <class 'float'>
+type("C3PO")        <class 'str'>
+type(True)          <class 'bool'>
 
 
 
@@ -121,7 +124,7 @@ type(True)
 9.) Fix the mistake in the following code:
 x = 4
 y = 5
-a = 3(x + y)
+a = 3(x + y)   need to add a * after the 3, a = 3*(x + y)
 a
 
 
@@ -131,7 +134,7 @@ a
 
 10.)Why does this code not calculate the average?
 x,y,z =(3,4,5)
-ave = x+y+z/3
+ave = x+y+z/3      need parentaces around x,y,z, ave = (x+y+z)/3
 ave
 
 
