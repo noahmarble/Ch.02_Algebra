@@ -21,7 +21,7 @@ but I will definitely not ask another person except the instructor. typed: Noah 
 
 
 
-
+INCORRECT! This code doesn't work. Why
 3.) What happens when you try this and why?
 A = 22
 b = 13
@@ -32,7 +32,7 @@ use substitution, 22+13 = 35
 
 
 
-
+INCORRECT! the best variable will describe it as well
 4.) All of the variable names below can be used. But which ONE of these is the better variable name to use?
 a
 A
@@ -47,7 +47,7 @@ a, it starts with a lower case abd is th shortest to type
 
 
 
-
+INCORRECT! There are a few more that don't work
 5.) Which of these variables names are NOT allowed in Python? 
 Test them if you aren't sure.
 
@@ -78,7 +78,7 @@ total%                   this one
 
 
 
-
+INCORRECT! That is not the output of type
 6.) Predict the output of (a) and its type and then test it?
 a =2         a will equal 2
 a*=10        a will equal 20
@@ -93,7 +93,7 @@ type(a)      15.0
 
 
 
-
+INCORRECT! Your code will not work.
 7.) This program runs, but the code still could be better. How?
 radius = 10
 x = 3.14
