@@ -25,8 +25,8 @@ INCORRECT! This code doesn't work. Why
 3.) What happens when you try this and why?
 A = 22
 b = 13
-c = a+b = 35
-use substitution, 22+13 = 35
+c = a+b =
+error, a is not defined
 
 
 
@@ -39,10 +39,10 @@ A
 Area
 AREA
 area
-area_of_rectangle
+area_of_rectangle  this one describes what it is and of what
 Area_Of_Rectangle
 
-a, it starts with a lower case abd is th shortest to type
+
 
 
 
@@ -55,10 +55,10 @@ apple
 Apple
 APPLE
 Apple2
-1Apple
+1Apple                  this one
 account number          this one it has a space in it
 account_number
-account.number
+account.number          this one
 accountNumber
 account#                cant have a hashtag
 pi
@@ -80,13 +80,13 @@ total%                   this one
 
 INCORRECT! That is not the output of type
 6.) Predict the output of (a) and its type and then test it?
-a =2         a will equal 2
-a*=10        a will equal 20
-a/=2         a will equal 10.0
-a+=12        a will equal 22.0
-a-=7         a will equal 15.0
-a            a will equal 15.0
-type(a)      15.0
+a =2
+a*=10
+a/=2
+a+=12
+a-=7
+a               15.0
+type(a)         float
 
 
 
@@ -104,7 +104,7 @@ area
 
 radius=10
 pi=3.14
-area=pi*radious**2
+area=pi*radius**2
 area
 
 
